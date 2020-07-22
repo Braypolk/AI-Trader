@@ -1,0 +1,7 @@
+image:
+  file: Dockerfile
+ports:
+  - port: 6080
+    protocol: "http"
+tasks:
+  - command: pip3 install alpaca-trade-api backtrader backtrader[plotting]
