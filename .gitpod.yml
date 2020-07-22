@@ -1,6 +1,0 @@
-image:
-  file: .gitpod.dockerfile
-ports:
-  - port: 6080
-tasks:
-  - command: pip3 install alpaca-trade-api backtrader backtrader[plotting]
